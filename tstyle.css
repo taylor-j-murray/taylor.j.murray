@@ -36,3 +36,17 @@ background-color: Black;
 color:White;
 }
 
+.sidenav2 {
+  list-style-type: none;
+  margin: right;
+  padding: 0;
+  width: 25%;
+  background: URL(IMG_9469.jpeg);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+}
+
