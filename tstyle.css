@@ -2,4 +2,37 @@
   width: 500px;
 }
 
+.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: Black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+}
+
+.sidenav li a {
+display: block;
+  color: White;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-family: Times New Roman;
+  font-size: 20px;
+}
+
+.sidenav li a.active{
+  background-color: Gray;
+  color: Gray;
+}
+
+.sidenav li a:hover{
+background-color: Red;
+color:White;
+}
 
