@@ -42,7 +42,9 @@ color: Black;
 }
 
 .june{
-margin: 100px;
+background-image: url(IMG_9496.jpeg);
+background-position-x: 70%;
+background-position-y: 20%;
 heigth: 300px;
 width: 200px;
 }
