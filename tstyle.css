@@ -42,15 +42,9 @@ color: Black;
 }
 
 .sidenav2 {
-  list-style-type: none;
   back-ground-position-x: 75%;
   back-ground-position-y: 30%;
-  padding: 0;
-  width: 25%;
   background-image: url(IMG_9469.jpeg);
   position: fixed;
-  height: 20%;
-  overflow: auto;
-  text-align: center;
 }
 
