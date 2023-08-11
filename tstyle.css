@@ -38,7 +38,8 @@ color: Black;
 
 .sidenav2 {
   list-style-type: none;
-  margin: 90%;
+  back-ground-position-x: 75%;
+  back-ground-position-y: 30%;
   padding: 0;
   width: 25%;
   background-image: url(IMG_9469.jpeg);
