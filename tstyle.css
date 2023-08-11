@@ -42,7 +42,8 @@ color: Black;
 }
 
 .sidenav2 {
-float: right;
+background-position-x: 75%;
+background-position-y: 25%;
 background-image: url(IMG_9469.jpeg);
 }
 
