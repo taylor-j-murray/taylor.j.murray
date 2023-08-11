@@ -41,9 +41,8 @@ background-color: Black;
 color: Black;
 }
 
-.sidenav2 {
-background-position-x: 75%;
-background-position-y: 25%;
+.june image.right{
+margin: 10px
 background-image: url(IMG_9469.jpeg);
 heigth: 200px;
 width: 100px
