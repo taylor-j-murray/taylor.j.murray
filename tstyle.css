@@ -1,10 +1,24 @@
 .taylor{
-  width: 500px;
+  width: 600px;
+  margin-left: 40%;
 }
 
-.t h2{
-width: 500px;
-font-size: 30px;
+.taylor p{
+  font-size:15px;
+  font-family: Times New Roman;
+  text-align: center;
+}
+
+.taylor h1{
+  text-align:justify;
+  text-align-last: center; 
+  font-size: 40px;
+  }
+
+.taylor h2{
+  text-align:justify;
+  text-align-last: center; 
+  font-size: 30px;
 }
 
 .sidenav {
@@ -32,20 +46,28 @@ display: block;
 }
 
 .sidenav li a.active{
-  background-color: Gray;
+  background-color: white;
   color: Gray;
 }
 
 .sidenav li a:hover{
-background-color: Black;
-color: Black;
+background-color: red;
+color: black;
 }
 
-.june{
-background-image: url(IMG_9496.jpeg);
-background-position-x: 70%;
-background-position-y: 20%;
-heigth: 300px;
+.taylor img{
+height: 265px;
 width: 200px;
+float:right;
+margin-left: 100px;
 }
 
+.taylor .background{
+  background-image: url("IMG_9469.jpeg");
+  height: 265px;
+  width: 200px;;
+  background-size: contain;
+  margin-left: 1200px;
+  top:10%;
+  }
+  
