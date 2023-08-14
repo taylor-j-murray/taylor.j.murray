@@ -6,7 +6,7 @@
 .taylor p{
   font-size:15px;
   font-family: Times New Roman;
-  text-align: center;
+  text-align: justify;
 }
 
 .taylor h1{
@@ -55,19 +55,26 @@ background-color: red;
 color: black;
 }
 
-.taylor img{
+.taylor .p .img .june1{
 height: 265px;
 width: 200px;
 float:right;
 margin-left: 100px;
 }
 
-.taylor .background{
-  background-image: url("IMG_9469.jpeg");
+
+
+.taylor .p .img .mei1{
   height: 265px;
-  width: 200px;;
-  background-size: contain;
-  margin-left: 1200px;
-  top:10%;
+  width: 200px;
+  float: left;
   }
   
+  .taylor .p .background2{
+    background-image: url("mei1.jpeg");
+    height: 265px;
+    width: 200px;;
+    background-size: contain;
+    margin-left: 9000px;
+    top:10%;
+    }
