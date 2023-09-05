@@ -1,36 +1,32 @@
 .taylor{
   width: 600px;
-  margin-left: 40%;
+}
+
+
+.taylor h1{
+  font-size: 40px;
+  margin: 35% 5% 5% 5%;
 }
 
 .taylor p{
-  font-size:15px;
-  font-family: Times New Roman;
-  text-align: justify;
+  font-size:20px;
 }
-
-.taylor h1{
-  text-align:justify;
-  text-align-last: center; 
-  font-size: 40px;
-  }
-
-.taylor h2{
-  text-align:justify;
-  text-align-last: center; 
-  font-size: 30px;
+  
+.taylor li{
+  margin-bottom:8px;
 }
-
 .sidenav {
+  display:block;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  width: 25%;
+  padding:0;
+  width: 100%;
   background-color: Black;
   position: fixed;
   left: 0;
   top: 0;
-  height: 100%;
+  right: 0;
+  height: 20%;
   overflow: auto;
   text-align: center;
 }
@@ -53,28 +49,119 @@ display: block;
 .sidenav li a:hover{
 background-color: red;
 color: black;
-}
-
-.taylor .p .img .june1{
-height: 265px;
-width: 200px;
-float:right;
-margin-left: 100px;
+display:block;
 }
 
 
 
-.taylor .p .img .mei1{
-  height: 265px;
-  width: 200px;
-  float: left;
+    .content {
+      color: var(--text-color);
+
+   }
+   .content img {
+    display:block;
+    max-width: 30%;
+    
+   }
+   .content img.left {
+      max-width: 15%;
+      float: left;
+      margin: 0% 0% 0% 10%;
+    
+   }
+   .content img.right {
+      max-width: 15%;
+      float: right;
+      margin: 0% 10% 0% 0%; 
+     
+   }
+  .main {
+     margin: 20px;
   }
-  
-  .taylor .p .background2{
-    background-image: url("mei1.jpeg");
-    height: 265px;
-    width: 200px;;
-    background-size: contain;
-    margin-left: 9000px;
-    top:10%;
+
+  @media screen and (max-width:480px){
+
+    .taylor{
+      width: 600px;
+      text-align:justify;
+      align-items:center;
     }
+    .taylor p{
+      font-size:15px;
+      font-family: Times New Roman;
+    }
+    
+    .taylor h1{
+      font-size: 40px;
+      margin: 0 100% 0 150%;
+    }
+    
+    
+    .taylor h2{
+      font-size: 30px;
+    
+    }
+    
+      
+    .sidenav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 25%;
+      background-color: Black;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100%;
+      overflow: auto;
+      text-align: center;
+    }
+    
+    .sidenav li a {
+    display: block;
+      color: White;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-decoration: none;
+      font-family: Times New Roman;
+      font-size: 20px;
+    }
+    
+    .sidenav li a.active{
+      background-color: white;
+      color: Gray;
+    }
+    
+    .sidenav li a:hover{
+    background-color: red;
+    color: black;
+    }
+    
+    
+    
+   .content {
+          margin-left: 25%;
+          color: var(--text-color);
+       }
+       .content img {
+        margin: auto;
+        display:block;
+        max-width: 20%;
+        
+       }
+       .content img.left {
+          max-width: 20%;
+          float: left;
+          margin: 20px;
+        
+       }
+       .content img.right {
+          max-width: 20%;
+          float: right;
+          margin: 10px;
+         
+       }
+      .main {
+         margin: 20px;
+      }
+  }
