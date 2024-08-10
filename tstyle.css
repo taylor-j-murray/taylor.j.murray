@@ -171,5 +171,12 @@ display:block;
 		align-items: center;
 }
 
+	.content{
+		width:100%;
+	}
+	.sidenav{
+		width:100%;
+		align-items: center;
+	}
 }
 
