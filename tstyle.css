@@ -81,11 +81,7 @@ display:block;
      margin: 20px;
   }
 
-  @media screen and (max-width:480px){
 
-   .taylor{
-  width: 600px;
-}
 
 
 .taylor h1{
@@ -135,21 +131,6 @@ display: block;
 background-color: red;
 color: black;
 display:block;
-}
-
-  @media screen and (max-width: 600px) {
-  .leftcolumn, .rightcolumn, input[type=submit] {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
 }
 
 
