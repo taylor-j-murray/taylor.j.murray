@@ -173,10 +173,16 @@ display:block;
 
 	.content{
 		width:100%;
+		hei
 	}
 	.sidenav{
 		width:100%;
+		heigth: 100%;
 		align-items: center;
 	}
+
+	 .main {
+     margin: 20px;
+  }
 }
 
