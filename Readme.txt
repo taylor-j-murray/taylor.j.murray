@@ -1,0 +1,2 @@
+This website is not entirely built from scratch see inland.css and nivo-slider.css for more details. Also, I got these css files from Javier Carvajal-Rojas' Website!
+Inspiration was also taken from Jack Jeffries website.
