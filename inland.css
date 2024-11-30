@@ -15,7 +15,7 @@ a:hover{color: skyblue;text-decoration:none;}
 a img{border:none;}
 h1,h2,h3,h4{clear:left;color:white;font-weight:400;margin:0.7em 0;font-family:'Yanone Kaffeesatz';}
 h1{font-size:3em; text-decoration: underline;}
-h2{font-size:2.4em;}
+h2{font-size:2.4em; text-decoration: underline;}
 h3{font-size:1.9em;}
 p,ul{margin:0 0 20px 0;}
 i,em {font-style:italic;}
@@ -64,6 +64,8 @@ b,strong {font-weight:700;}
 #trio3 .inner{margin-right:0;}
 .left .inner{margin-left:0;}
 .right .inner{margin-right:0;}
+#duo1{float:left; width: 50%;}
+#duo1 .inner{margin-left:0;}
 
 /* Footer */
 #footer{clear:both;background-color:#fafafa;}
@@ -173,7 +175,7 @@ a:hover{color: skyblue;text-decoration:none;}
 a img{border:none;}
 h1,h2,h3,h4{clear:left;color:white;font-weight:400;margin:0.7em 0;font-family:'Yanone Kaffeesatz';}
 h1{font-size:3em; text-decoration: underline;}
-h2{font-size:2.4em;}
+h2{font-size:2.4em; text-decoration: underline;}
 h3{font-size:1.9em;}
 p,ul{margin:0 0 20px 0;}
 i,em {font-style:italic;}
@@ -217,9 +219,13 @@ b,strong {font-weight:700;}
 #trio2{float:left;width:33.3%;}
 #trio3{float:right;width:33.3%;}
 .inner{margin:5px 30px;}
+
 #trio1 .inner{margin-left:0;}
 #trio2 .inner{margin:0;}
 #trio3 .inner{margin-right:0;}
+
+#duo1{float:left; width: 50%;}
+#duo1 .inner{margin-left:0;}
 .left .inner{margin-left:0;}
 .right .inner{margin-right:0;}
 
@@ -262,4 +268,4 @@ figcaption {
 
 
 }
-</code>
+
